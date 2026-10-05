@@ -8,7 +8,8 @@ export default function () {
     plugins: [
       vue(),
       tailwindcss(),
-    ]
+    ],
+    // Match your exact GitHub repository name (e.g., '/code-and-craft/')
+    base: '/code-and-craft/'
   })
 }
-
