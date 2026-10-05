@@ -1,0 +1,109 @@
+[
+    {
+      "id": "kawika-tools",
+      "track": "software",
+      "featured": true,
+      "title": "Kawika Tools — AI Workspace Platform",
+      "subtitle": "Agentic orchestration engine and enterprise tool suite for small business workflow.",
+      "tags": ["Vue 3", "Python", "Docker", "PostgreSQL", "Tailwind CSS"],
+      "heroImage": "/images/kawika-tools/hero.png",
+      "summary": "Designed and built a modular workspace platform combining email orchestration, task management, and autonomous AI agents.",
+      "links": {
+        "github": "https://github.com/davidfitz314/kawika-tools",
+        "live": "https://kawikatools.com"
+      },
+      "details": {
+        "architecture": "Vue 3 front-end utilizing reactive store management paired with a Python distributed worker backend for prompt pipeline evaluation.",
+        "keyHighlights": [
+          "Migrated front-end architecture to Vue 3 Composition API for responsive single-file components.",
+          "Containerized background task runners with Docker and PostgreSQL."
+        ]
+      }
+    },
+    {
+        "id": "custom-wood-desk",
+        "track": "woodworking",
+        "featured": true,
+        "title": "Custom Wooden Executive Desk",
+        "subtitle": "Handcrafted wooden desk featuring integrated drawers and precision joinery.",
+        "tags": ["Hardwood", "Drawer Joinery", "Satin Finish", "Custom Hardware"],
+        "heroImage": "/images/desk/hero.jpg",
+        "summary": "Custom-designed wooden desk tailored for ergonomic studio workspace, incorporating smooth drawer slides and durable protective topcoat finish.",
+        "specs": {
+          "dimensions": "Custom Studio Fit",
+          "materials": ["Hardwood Lumbar", "Cabinet-Grade Plywood"],
+          "finish": "Protective Clear Topcoat"
+        },
+        "gallery": [
+          {
+            "url": "/images/desk/hero.jpg",
+            "caption": "Completed custom wooden desk workspace."
+          }
+        ]
+      },
+      {
+        "id": "epoxy-resin-designs",
+        "track": "woodworking",
+        "featured": true,
+        "title": "Metallic Epoxy Resin Inlay Crafts",
+        "subtitle": "Decorative wooden objects featuring custom epoxy resin gaps and metallic pigments.",
+        "tags": ["Epoxy Resin", "Metallic Pigments", "Custom Inlay", "Fine Sanding"],
+        "heroImage": "/images/epoxy-designs/hero.jpg",
+        "summary": "Explorations combining raw wood grain voids with hand-poured metallic pigment epoxy fills, precision sanded to a satin finish.",
+        "specs": {
+          "materials": ["Select Hardwoods", "Deep Pour Epoxy", "Metallic Pigments"],
+          "finish": "Fine Polish Finish"
+        },
+        "gallery": [
+          {
+            "url": "/images/epoxy-designs/hero.jpg",
+            "caption": "Custom wood board featuring metallic epoxy filled gap inlays."
+          }
+        ]
+      },
+      {
+        "id": "phone-charging-docks",
+        "track": "woodworking",
+        "featured": true,
+        "title": "Wooden Desktop Phone Charging Stations",
+        "subtitle": "Batch-crafted phone docks including Slatted Arch, Barrel Tavern, and Chevron Block designs.",
+        "tags": ["Precision Router Work", "Metallic Epoxy", "Neodymium Magnets", "Batch Craft"],
+        "heroImage": "/images/phone-holders/slatted-arch-dock/hero.jpg",
+        "summary": "Custom desktop charging stations designed across three distinct aesthetic styles: Slatted Arch, Barrel Tavern, and Chevron Block with metallic resin accents.",
+        "specs": {
+          "variations": ["Slatted Arch Dock", "Barrel Tavern Dock", "Chevron Block Dock"],
+          "materials": ["Thin Wood Boards", "Metallic Epoxy", "Cable Routing Channels"],
+          "finish": "Hand-Rubbed Oil"
+        },
+        "gallery": [
+          {
+            "url": "/images/phone-holders/slatted-arch-dock/hero.jpg",
+            "caption": "Slatted Arch desk phone dock station."
+          },
+          {
+            "url": "/images/phone-holders/barrel-tavern-dock/hero.jpg",
+            "caption": "Barrel Tavern styled phone dock station."
+          },
+          {
+            "url": "/images/phone-holders/chevron-block-dock/hero.jpg",
+            "caption": "Chevron Block pattern phone dock station with metallic epoxy accents."
+          }
+        ]
+      },
+      {
+        "id": "wall-hat-coat-rack",
+        "track": "woodworking",
+        "featured": false,
+        "title": "Wall-Mounted Hat & Coat Rack",
+        "subtitle": "Clean utility entryway coat rack crafted with flush mounting hardware.",
+        "tags": ["Solid Wood", "Flush Mounting", "Custom Hooks"],
+        "heroImage": "/images/wall-hat-coat-rack/hero.jpg",
+        "summary": "Minimalist wall rack built for household entryways featuring sturdy hook positioning and keyhole hanger backing.",
+        "gallery": [
+          {
+            "url": "/images/wall-hat-coat-rack/hero.jpg",
+            "caption": "Wall-mounted hat and coat rack installed."
+          }
+        ]
+      }
+    ]

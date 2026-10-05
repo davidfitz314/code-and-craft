@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  /* Fonts */
+  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Accent Colors */
+  --color-amber-accent: #f59e0b; /* Woodworking / Craft accent */
+  --color-sky-accent: #38bdf8;   /* Software / Systems accent */
+
+  /* Neutral Surface Palette */
+  --color-surface-bg: #030712;      /* Slate-950 main background */
+  --color-surface-card: #0f172a;    /* Slate-900 card background */
+  --color-surface-border: #1e293b;  /* Slate-800 borders */
+}
+
+body {
+  background-color: var(--color-surface-bg);
+  color: #f8fafc;
+  font-family: var(--font-sans);
+}
